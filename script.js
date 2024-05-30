@@ -1,8 +1,7 @@
 function fibonacci(num) {
 var a=0,b=1;
 	console.log(a);
-	console.log(b);
-	for(var i=0;i<=num;i++)
+	for(var i=1;i<=num;i++)
 		{
 			var temp=a+b;
 			console.log(temp);
